@@ -10,7 +10,7 @@ const OneMovie = ({match}) => {
             title: "Some movie",
             runtime: 150,
         })
-    }, [])
+    }, [match])
     return (
         <Fragment>
             <h2>Movie: {movie.title} {movie.id}</h2>
