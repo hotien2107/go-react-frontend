@@ -13,7 +13,7 @@ const OneMovie = ({match}) => {
     }, [])
     return (
         <Fragment>
-            <h2>Movie: {this.state.movie.title} {this.state.movie.id}</h2>
+            <h2>Movie: {movie.title} {movie.id}</h2>
 
             <table className="table table-compact table-striped">
                 <thead></thead>
