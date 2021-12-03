@@ -1,10 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-
-
-export default class Categories extends Component {
-
-    render() {
-        return <h2>Category: {this.props.title}</h2>
-    }
+const Categories = ({title}) => {
+    return <h2>Category: {title}</h2>
 }
+
+export default Categories
