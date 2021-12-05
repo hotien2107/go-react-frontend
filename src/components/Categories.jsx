@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Categories = ({title}) => {
+const Categories = ({ title }) => {
     return <h2>Category: {title}</h2>
 }
 
